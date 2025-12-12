@@ -124,9 +124,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.h" />
+    <ClCompile Include="Player39.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="character26.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="1212codevonvention.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
